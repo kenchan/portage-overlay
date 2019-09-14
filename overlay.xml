@@ -1,0 +1,13 @@
+<repositories version="1.0">
+    <repo quality="experimental" status="unofficial">
+        <name>kenchan</name>
+        <description>kenchan's personal overlay</description>
+        <homepage>https://github.com/kenchan/portage-overlay</homepage>
+        <owner>
+            <email>kenichi.taka@gmail.com</email>
+            <name>Takahashi Kenichi</name>
+        </owner>
+        <source type="git">git://github.com/kenchan/portage-overlay.git</source>
+        <feed>https://github.com/kenchan/portage-overlay/commits/master.atom</feed>
+    </repo>
+</repositories>
