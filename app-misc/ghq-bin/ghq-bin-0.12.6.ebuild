@@ -23,5 +23,5 @@ QA_PREBUILT=${QA_PRESTRIPPED}
 
 src_install() {
 	dobin ghq_linux_amd64/ghq
-	dodoc ghq_linux_amd64/README.txt
+	dodoc ghq_linux_amd64/README.adoc
 }
