@@ -152,3 +152,7 @@ IUSE=""
 
 DEPEND=""
 RDEPEND=""
+
+src_install() {
+       cargo_src_install --path=.
+}
