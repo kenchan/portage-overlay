@@ -5,7 +5,7 @@ EAPI=7
 
 inherit go-module
 
-EGO_PN="github.com/motemen/ghq"
+EGO_PN="github.com/x-motemen/ghq"
 EGO_VENDOR=(
     "github.com/Songmu/gitconfig v0.0.3"
     "github.com/cpuguy83/go-md2man/v2 f79a8a8ca69d github.com/cpuguy83/go-md2man"
@@ -30,8 +30,8 @@ EGO_VENDOR=(
 )
 
 DESCRIPTION="Remote repository management made easy"
-HOMEPAGE="https://github.com/motemen/ghq"
-SRC_URI="https://github.com/motemen/ghq/archive/v${PV}.tar.gz -> ${P}.tar.gz
+HOMEPAGE="https://github.com/x-motemen/ghq"
+SRC_URI="https://github.com/x-motemen/ghq/archive/v${PV}.tar.gz -> ${P}.tar.gz
         $(go-module_vendor_uris)"
 
 LICENSE="MIT"
